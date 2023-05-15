@@ -22,7 +22,7 @@ COPY ./ /app/
 RUN chown -R app /app
 ENV PYTHONPATH=/app
 
-RUN pip install gunicorn==20.0.4 git+https://github.com/acdh-oeaw/apis-core-rdf
+RUN pip install gunicorn==20.0.4 git+https://github.com/acdh-oeaw/apis-core-rdf@main
 
 USER app
 
