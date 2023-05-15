@@ -1,0 +1,3 @@
+[submodule "apis-ontologies"]
+	path = apis-ontologies
+	url = https://github.com/acdh-oeaw/apis-ontologies
