@@ -1,0 +1,9 @@
+name: commitizen-check
+on:
+  push:
+
+jobs:
+  deploy:
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-commitizen-check.yml@birger/commitizen
+    with:
+      rev-range: origin/main..$GITHUB_REF_NAME
